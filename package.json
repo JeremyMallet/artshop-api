@@ -1,0 +1,28 @@
+{
+  "name": "artshop-api",
+  "version": "1.0.0",
+  "description": "- Un dépôt github que tu vas appeler : artshop-api : fait.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeremyMallet/artshop-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeremyMallet/artshop-api/issues"
+  },
+  "homepage": "https://github.com/JeremyMallet/artshop-api#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "pg": "^8.11.1",
+    "sequelize": "^6.32.1"
+  }
+}
